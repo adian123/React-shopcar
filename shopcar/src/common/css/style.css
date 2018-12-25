@@ -1,0 +1,147 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+}
+.wraper{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fff; 
+}
+.header {
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    color: #fff;  
+    background-color: #e54847;
+    z-index: 70;
+}
+.header h4{
+    line-height: 44px;
+}
+.content {
+    flex: 1;
+    overflow-y: scroll; 
+    margin-top: 45px;
+}
+.shop-list{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.shop-list dl{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+.shop-list dl dt img{
+   width: 70px;
+   height: 70px;
+}
+.shop-list dl dd{
+    line-height: 23px;
+    margin-left: 10px;
+}
+.cat{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    -webkit-box-align: center;
+    line-height: normal;
+}
+.cat span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cat button{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border:1px solid #ccc;
+    border-radius: 50%;
+    outline: none; 
+}
+.shop-price{
+    margin: 10px;
+}
+.shop-price p{
+    line-height: 25px;
+}
+.shop-list{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.list{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.left-list{
+    width: 100px;
+    border-right: 1px solid #ccc;
+}
+.left-list ul li{
+    line-height: 25px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eeee;
+
+}
+.right-list{
+    width: 100%;
+    height: auto;
+}
+.right-list dl{
+    display: flex; 
+    padding: 10px;
+}
+.right-list dl dt{
+    width: 80px;
+    height: 80px;
+}
+.right-list dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.right-list dl dd{
+    width: 70%;
+    margin-left: 5px; 
+    position: relative;
+    line-height: 25px;
+}
+.del{
+     position: absolute;
+     top: 0;
+     right: 5px;
+}
+.join{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.join button{
+    padding: 5px;
+    border:none;
+    outline: none;
+    background-color: #e54847;
+    color: #fff;
+}
+.look{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #e54847;
+    text-align: center;
+}
+.look a{
+    color: #fff;
+    line-height: 40px;
+}
